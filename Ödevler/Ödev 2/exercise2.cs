@@ -68,7 +68,7 @@ namespace exercise2
             Console.WriteLine("\n\nGirilen Metindeki Sesli Harfleri Bulan Program");
             Console.Write("Metin yazınız : ");
             string text = Console.ReadLine();
-            char[] vowels = { 'a', 'e', 'ı', 'i', 'o', 'ö', 'u', 'ü', 'A', 'E', 'I', 'İ', 'O', 'Ö', 'U', 'Ü' }; // English alphabet vowels
+            char[] vowels = { 'a', 'e', 'ı', 'i', 'o', 'ö', 'u', 'ü', 'A', 'E', 'I', 'İ', 'O', 'Ö', 'U', 'Ü' }; // Turkish alphabet vowels
             char[] charArray = text.ToCharArray();
             for (int i = 0; i < charArray.Length; i++)
             {
