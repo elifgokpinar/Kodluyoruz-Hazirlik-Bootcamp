@@ -1,6 +1,6 @@
 using System;
 
-namespace exercise2
+namespace hw2
 {
     internal class Program
     {
@@ -13,7 +13,6 @@ namespace exercise2
             for (int num = 2; num <= 100; num++)
             {
                 int control = 0;
-
                 for (int i = 2; i <= num / 2; i++)
                 {
                     if (num % i == 0)
