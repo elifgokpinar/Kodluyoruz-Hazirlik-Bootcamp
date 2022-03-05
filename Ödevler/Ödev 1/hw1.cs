@@ -1,6 +1,6 @@
 using System;
 
-namespace exercise1
+namespace hw1
 {
     internal class Program
     {
